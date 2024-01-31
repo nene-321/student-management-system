@@ -17,14 +17,11 @@ namespace student_management_system
             InitializeComponent();
         }
 
-        private void label2_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
+            this.Hide();
+            StudentManagementGrades f = new StudentManagementGrades();
+            f.Show();
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using student_management_system;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -55,6 +56,18 @@ namespace STUDENT_MANAGEMENT_SYSTEM
         private void button4_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            StudentManagement f = new StudentManagement();
+            f.Show();
         }
     }
 }

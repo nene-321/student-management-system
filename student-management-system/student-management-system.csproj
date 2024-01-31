@@ -46,17 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="StudentManagementGrades.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="StudentManagementGrades.Designer.cs">
-      <DependentUpon>StudentManagementGrades.cs</DependentUpon>
-    </Compile>
     <Compile Include="StudentManagement.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="StudentManagement.Designer.cs">
       <DependentUpon>StudentManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentManagementGrades.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentManagementGrades.Designer.cs">
+      <DependentUpon>StudentManagementGrades.cs</DependentUpon>
     </Compile>
     <Compile Include="UserManagement.cs">
       <SubType>Form</SubType>
@@ -72,11 +72,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="StudentManagementGrades.resx">
-      <DependentUpon>StudentManagementGrades.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="StudentManagement.resx">
       <DependentUpon>StudentManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentManagementGrades.resx">
+      <DependentUpon>StudentManagementGrades.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserManagement.resx">
       <DependentUpon>UserManagement.cs</DependentUpon>
