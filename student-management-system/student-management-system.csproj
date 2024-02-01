@@ -46,6 +46,36 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddStudent.Designer.cs">
+      <DependentUpon>AddStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentManagementMonitoring.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentManagementMonitoring.designer.cs">
+      <DependentUpon>StudentManagementMonitoring.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginMenu.designer.cs">
+      <DependentUpon>LoginMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentManagementAttendance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentManagementAttendance.Designer.cs">
+      <DependentUpon>StudentManagementAttendance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentManagementPayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentManagementPayment.Designer.cs">
+      <DependentUpon>StudentManagementPayment.cs</DependentUpon>
+    </Compile>
     <Compile Include="StudentManagement.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,8 +100,22 @@
     <Compile Include="SystemMenu.Designer.cs">
       <DependentUpon>SystemMenu.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AddStudent.resx">
+      <DependentUpon>AddStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentManagementMonitoring.resx">
+      <DependentUpon>StudentManagementMonitoring.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginMenu.resx">
+      <DependentUpon>LoginMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentManagementAttendance.resx">
+      <DependentUpon>StudentManagementAttendance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentManagementPayment.resx">
+      <DependentUpon>StudentManagementPayment.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="StudentManagement.resx">
       <DependentUpon>StudentManagement.cs</DependentUpon>
     </EmbeddedResource>

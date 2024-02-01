@@ -147,7 +147,7 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(274, 218);
+            this.label11.Location = new System.Drawing.Point(578, 119);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(75, 13);
             this.label11.TabIndex = 12;
@@ -156,7 +156,7 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(274, 254);
+            this.label12.Location = new System.Drawing.Point(578, 155);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(121, 13);
             this.label12.TabIndex = 13;
@@ -165,11 +165,11 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(276, 186);
+            this.label13.Location = new System.Drawing.Point(269, 216);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(119, 13);
+            this.label13.Size = new System.Drawing.Size(206, 13);
             this.label13.TabIndex = 15;
-            this.label13.Text = "Confirm New Password:";
+            this.label13.Text = "Enter Password/New Password to confirm";
             // 
             // textBox1
             // 
@@ -187,35 +187,35 @@
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(401, 186);
+            this.textBox3.Location = new System.Drawing.Point(272, 234);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(149, 20);
             this.textBox3.TabIndex = 18;
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(401, 218);
+            this.textBox4.Location = new System.Drawing.Point(705, 119);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(149, 20);
             this.textBox4.TabIndex = 19;
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(402, 254);
+            this.textBox5.Location = new System.Drawing.Point(706, 155);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(149, 20);
             this.textBox5.TabIndex = 20;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(401, 280);
+            this.button1.Location = new System.Drawing.Point(436, 232);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(149, 23);
+            this.button1.Size = new System.Drawing.Size(95, 23);
             this.button1.TabIndex = 21;
             this.button1.Text = "Confirm Changes";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // Form2
+            // UserManagement
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -238,7 +238,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel1);
-            this.Name = "Form2";
+            this.Name = "UserManagement";
             this.Text = "Form2";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
