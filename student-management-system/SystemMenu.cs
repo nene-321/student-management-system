@@ -15,7 +15,7 @@ namespace STUDENT_MANAGEMENT_SYSTEM
     {
         public SystemMenu()
         {
-            InitializeComponent();
+            
         }
 
         private void label1_Click(object sender, EventArgs e)

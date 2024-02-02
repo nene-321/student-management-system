@@ -14,6 +14,7 @@ namespace student_management_system
     {
         public LoginMenu()
         {
+            InitializeComponent();
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -34,6 +35,25 @@ namespace student_management_system
         private void panel2_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_KeyUp(object sender, KeyEventArgs e)
+        {
+
+        }
+
+        private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            char ch = e.KeyChar;
+            if (!char.IsLetter(ch))
+            {
+                e.Handled = true;
+            }
         }
     }
 }
