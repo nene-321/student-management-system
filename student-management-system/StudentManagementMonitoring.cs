@@ -13,8 +13,8 @@ namespace student_management_system
     public partial class StudentManagementMonitoring : Form
     {
         public StudentManagementMonitoring()
-        {   
-
+        {
+            InitializeComponent();
         }
 
         private void Form2_Load(object sender, EventArgs e)
@@ -53,6 +53,11 @@ namespace student_management_system
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void button10_Click(object sender, EventArgs e)
         {
 
         }

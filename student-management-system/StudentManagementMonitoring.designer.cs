@@ -36,6 +36,10 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.Infractions = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Date = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label6 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
@@ -55,10 +59,6 @@
             this.button9 = new System.Windows.Forms.Button();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
-            this.Infractions = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Date = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label8 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.button2 = new System.Windows.Forms.Button();
@@ -159,6 +159,28 @@
             this.dataGridView1.Size = new System.Drawing.Size(537, 199);
             this.dataGridView1.TabIndex = 12;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            // 
+            // Infractions
+            // 
+            this.Infractions.HeaderText = "Infractions";
+            this.Infractions.MinimumWidth = 6;
+            this.Infractions.Name = "Infractions";
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "Demerits";
+            this.Column2.Name = "Column2";
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "Merits";
+            this.Column1.Name = "Column1";
+            // 
+            // Date
+            // 
+            this.Date.HeaderText = "Status (checked or unchecked)";
+            this.Date.MinimumWidth = 6;
+            this.Date.Name = "Date";
             // 
             // label6
             // 
@@ -369,28 +391,6 @@
             this.textBox5.Size = new System.Drawing.Size(163, 20);
             this.textBox5.TabIndex = 22;
             // 
-            // Infractions
-            // 
-            this.Infractions.HeaderText = "Infractions";
-            this.Infractions.MinimumWidth = 6;
-            this.Infractions.Name = "Infractions";
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "Demerits";
-            this.Column2.Name = "Column2";
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "Merits";
-            this.Column1.Name = "Column1";
-            // 
-            // Date
-            // 
-            this.Date.HeaderText = "Status (checked or unchecked)";
-            this.Date.MinimumWidth = 6;
-            this.Date.Name = "Date";
-            // 
             // label8
             // 
             this.label8.AutoSize = true;
@@ -448,6 +448,7 @@
             this.button10.TabIndex = 27;
             this.button10.Text = "Change name / grade and section";
             this.button10.UseVisualStyleBackColor = false;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // StudentManagementMonitoring
             // 
