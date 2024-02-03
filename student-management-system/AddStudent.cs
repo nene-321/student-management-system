@@ -16,5 +16,10 @@ namespace student_management_system
         {
             InitializeComponent();
         }
+
+        private void AddStudent_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

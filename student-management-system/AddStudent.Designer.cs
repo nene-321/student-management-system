@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -47,6 +48,7 @@
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.button4 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -54,18 +56,31 @@
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(81)))), ((int)(((byte)(15)))));
+            this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(992, 100);
             this.panel1.TabIndex = 0;
             // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(163)))), ((int)(((byte)(38)))));
+            this.panel2.Location = new System.Drawing.Point(0, 87);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(992, 13);
+            this.panel2.TabIndex = 1;
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(414, 46);
+            this.label1.Font = new System.Drawing.Font("Copperplate Gothic Bold", 25F);
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(163)))), ((int)(((byte)(38)))));
+            this.label1.Location = new System.Drawing.Point(168, 28);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(181, 13);
+            this.label1.Size = new System.Drawing.Size(708, 38);
             this.label1.TabIndex = 0;
             this.label1.Text = "Add Student and Generate QR Code";
             // 
@@ -154,21 +169,27 @@
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(81)))), ((int)(((byte)(15)))));
+            this.button1.Font = new System.Drawing.Font("Copperplate Gothic Bold", 8.25F);
+            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(163)))), ((int)(((byte)(38)))));
             this.button1.Location = new System.Drawing.Point(566, 302);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(125, 37);
             this.button1.TabIndex = 16;
             this.button1.Text = "Confirm add student";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(81)))), ((int)(((byte)(15)))));
+            this.button2.Font = new System.Drawing.Font("Copperplate Gothic Bold", 8.25F);
+            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(163)))), ((int)(((byte)(38)))));
             this.button2.Location = new System.Drawing.Point(417, 160);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(140, 36);
             this.button2.TabIndex = 17;
             this.button2.Text = "Create QR Code";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // pictureBox1
             // 
@@ -180,12 +201,15 @@
             // 
             // button3
             // 
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(81)))), ((int)(((byte)(15)))));
+            this.button3.Font = new System.Drawing.Font("Copperplate Gothic Bold", 8.25F);
+            this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(163)))), ((int)(((byte)(38)))));
             this.button3.Location = new System.Drawing.Point(417, 345);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(89, 27);
             this.button3.TabIndex = 19;
             this.button3.Text = "Save QR Code";
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.UseVisualStyleBackColor = false;
             // 
             // dataGridView1
             // 
@@ -196,29 +220,49 @@
             this.Column3});
             this.dataGridView1.Location = new System.Drawing.Point(12, 160);
             this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.Size = new System.Drawing.Size(381, 262);
             this.dataGridView1.TabIndex = 20;
             // 
             // Column1
             // 
             this.Column1.HeaderText = "Student name";
+            this.Column1.MinimumWidth = 8;
             this.Column1.Name = "Column1";
+            this.Column1.Width = 150;
             // 
             // Column2
             // 
             this.Column2.HeaderText = "Student Number";
+            this.Column2.MinimumWidth = 8;
             this.Column2.Name = "Column2";
+            this.Column2.Width = 150;
             // 
             // Column3
             // 
             this.Column3.HeaderText = "Grade and section";
+            this.Column3.MinimumWidth = 8;
             this.Column3.Name = "Column3";
+            this.Column3.Width = 150;
             // 
-            // Form1
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(158)))), ((int)(((byte)(2)))), ((int)(((byte)(3)))));
+            this.button4.Font = new System.Drawing.Font("Copperplate Gothic Bold", 8.25F);
+            this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(163)))), ((int)(((byte)(38)))));
+            this.button4.Location = new System.Drawing.Point(12, 476);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(89, 27);
+            this.button4.TabIndex = 21;
+            this.button4.Text = "Back";
+            this.button4.UseVisualStyleBackColor = false;
+            // 
+            // AddStudent
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(991, 528);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.pictureBox1);
@@ -234,8 +278,9 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.panel6);
             this.Controls.Add(this.panel1);
-            this.Name = "Form1";
+            this.Name = "AddStudent";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.AddStudent_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -266,5 +311,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Button button4;
     }
 }
