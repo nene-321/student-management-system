@@ -23,5 +23,15 @@ namespace student_management_system
             StudentManagementGrades f = new StudentManagementGrades();
             f.Show();
         }
+
+        private void StudentManagement_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

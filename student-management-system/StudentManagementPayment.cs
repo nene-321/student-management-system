@@ -16,6 +16,10 @@ namespace student_management_system
         {
 
         }
-      
+
+        private void StudentManagementPayment_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

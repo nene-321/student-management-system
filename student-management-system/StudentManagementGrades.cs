@@ -26,5 +26,15 @@ namespace student_management_system
         {
 
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void StudentManagementGrades_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

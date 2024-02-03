@@ -69,5 +69,10 @@ namespace STUDENT_MANAGEMENT_SYSTEM
             StudentManagement f = new StudentManagement();
             f.Show();
         }
+
+        private void panel2_Paint_1(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

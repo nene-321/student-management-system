@@ -21,5 +21,10 @@ namespace student_management_system
         {
 
         }
+
+        private void StudentManagementAttendance_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
