@@ -153,10 +153,25 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\logo.png" />
+    <None Include="images\logo.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="images\logo.png" />
+    <None Include="images\logo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\forgot_pass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\password.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\username.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\enter.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

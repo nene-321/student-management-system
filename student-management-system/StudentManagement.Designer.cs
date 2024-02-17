@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StudentManagement));
             this.label2 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
@@ -84,9 +85,9 @@
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(163)))), ((int)(((byte)(38)))));
             this.label1.Location = new System.Drawing.Point(7, 29);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(330, 29);
+            this.label1.Size = new System.Drawing.Size(329, 29);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Student Grades Data";
+            this.label1.Text = "Student Management";
             // 
             // tableLayoutPanel1
             // 
@@ -197,7 +198,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::student_management_system.Properties.Resources.logo1;
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(3, 3);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(163, 134);
