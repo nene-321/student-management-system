@@ -1,4 +1,5 @@
-﻿using System;
+﻿using STUDENT_MANAGEMENT_SYSTEM;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -39,7 +40,9 @@ namespace student_management_system
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            SystemMenu SysMenu = new SystemMenu();
+            SysMenu.Show();
         }
 
         private void textBox1_KeyUp(object sender, KeyEventArgs e)
