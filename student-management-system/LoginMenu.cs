@@ -41,8 +41,8 @@ namespace student_management_system
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            SystemMenu SysMenu = new SystemMenu();
-            SysMenu.Show();
+            SystemMenu systemMenu = new SystemMenu();
+            systemMenu.Show();
         }
 
         private void textBox1_KeyUp(object sender, KeyEventArgs e)
