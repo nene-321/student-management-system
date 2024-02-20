@@ -74,5 +74,12 @@ namespace STUDENT_MANAGEMENT_SYSTEM
         {
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            AddStudent addStudent = new AddStudent();
+            addStudent.Show();
+        }
     }
 }
