@@ -119,7 +119,6 @@
             this.label2.Size = new System.Drawing.Size(139, 23);
             this.label2.TabIndex = 3;
             this.label2.Text = "Type of bill";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // button1
             // 
@@ -267,6 +266,7 @@
             this.button5.TabIndex = 5;
             this.button5.Text = "Back to System Menu";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button9_Click);
             // 
             // button6
             // 
@@ -297,6 +297,7 @@
             this.button4.TabIndex = 1;
             this.button4.Text = "Student grades data";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button1_Click);
             // 
             // button7
             // 
@@ -308,6 +309,7 @@
             this.button7.TabIndex = 2;
             this.button7.Text = "Student attendance data";
             this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button2_Click);
             // 
             // button8
             // 
@@ -319,6 +321,7 @@
             this.button8.TabIndex = 3;
             this.button8.Text = "Student monitoring sheet";
             this.button8.UseVisualStyleBackColor = false;
+            this.button8.Click += new System.EventHandler(this.button3_Click);
             // 
             // button9
             // 
@@ -330,6 +333,7 @@
             this.button9.TabIndex = 4;
             this.button9.Text = "Student payment information";
             this.button9.UseVisualStyleBackColor = false;
+            this.button9.Click += new System.EventHandler(this.button4_Click);
             // 
             // comboBox1
             // 
@@ -370,7 +374,6 @@
             this.Controls.Add(this.dataGridView1);
             this.Name = "StudentManagementPayment";
             this.Text = "Form2";
-            this.Load += new System.EventHandler(this.StudentManagementPayment_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

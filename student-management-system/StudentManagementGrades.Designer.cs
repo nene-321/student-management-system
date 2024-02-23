@@ -49,17 +49,17 @@
             this.label2 = new System.Windows.Forms.Label();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.button8 = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.label4 = new System.Windows.Forms.Label();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.button8 = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.tableLayoutPanel1.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -101,6 +101,7 @@
             this.button1.TabIndex = 1;
             this.button1.Text = "Student grades data";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -112,6 +113,7 @@
             this.button2.TabIndex = 2;
             this.button2.Text = "Student attendance data";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button4
             // 
@@ -123,6 +125,7 @@
             this.button4.TabIndex = 4;
             this.button4.Text = "Student payment information";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // flowLayoutPanel1
             // 
@@ -144,6 +147,7 @@
             this.button9.TabIndex = 7;
             this.button9.Text = "Back to System Menu";
             this.button9.UseVisualStyleBackColor = false;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // button10
             // 
@@ -174,6 +178,7 @@
             this.button3.TabIndex = 3;
             this.button3.Text = "Student monitoring sheet";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // panel1
             // 
@@ -204,6 +209,7 @@
             this.label1.Size = new System.Drawing.Size(330, 29);
             this.label1.TabIndex = 0;
             this.label1.Text = "Student Grades Data";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // comboBox1
             // 
@@ -306,56 +312,6 @@
             this.dataGridView1.Size = new System.Drawing.Size(453, 250);
             this.dataGridView1.TabIndex = 13;
             // 
-            // button8
-            // 
-            this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(81)))), ((int)(((byte)(15)))));
-            this.button8.Font = new System.Drawing.Font("Copperplate Gothic Bold", 10F);
-            this.button8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(163)))), ((int)(((byte)(38)))));
-            this.button8.Location = new System.Drawing.Point(346, 473);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(129, 38);
-            this.button8.TabIndex = 15;
-            this.button8.Text = "Reveal grade";
-            this.button8.UseVisualStyleBackColor = false;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Copperplate Gothic Bold", 10F);
-            this.label3.Location = new System.Drawing.Point(486, 487);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(127, 15);
-            this.label3.TabIndex = 16;
-            this.label3.Text = "Initial average";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(818, 108);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(160, 150);
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::student_management_system.Properties.Resources.logo1;
-            this.pictureBox2.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(163, 134);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 6;
-            this.pictureBox2.TabStop = false;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Copperplate Gothic Bold", 10F);
-            this.label4.Location = new System.Drawing.Point(660, 487);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(121, 15);
-            this.label4.TabIndex = 18;
-            this.label4.Text = "FInal average";
-            // 
             // Column3
             // 
             this.Column3.HeaderText = "Subject";
@@ -381,6 +337,38 @@
             this.Column2.Name = "Column2";
             this.Column2.Width = 150;
             // 
+            // button8
+            // 
+            this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(81)))), ((int)(((byte)(15)))));
+            this.button8.Font = new System.Drawing.Font("Copperplate Gothic Bold", 10F);
+            this.button8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(163)))), ((int)(((byte)(38)))));
+            this.button8.Location = new System.Drawing.Point(346, 473);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(129, 38);
+            this.button8.TabIndex = 15;
+            this.button8.Text = "Reveal grade";
+            this.button8.UseVisualStyleBackColor = false;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Copperplate Gothic Bold", 10F);
+            this.label3.Location = new System.Drawing.Point(486, 487);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(127, 15);
+            this.label3.TabIndex = 16;
+            this.label3.Text = "Initial average";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Copperplate Gothic Bold", 10F);
+            this.label4.Location = new System.Drawing.Point(660, 487);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(121, 15);
+            this.label4.TabIndex = 18;
+            this.label4.Text = "FInal average";
+            // 
             // label5
             // 
             this.label5.AutoSize = true;
@@ -400,6 +388,24 @@
             this.label6.Size = new System.Drawing.Size(177, 18);
             this.label6.TabIndex = 20;
             this.label6.Text = "Grade and Section";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(818, 108);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(160, 150);
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::student_management_system.Properties.Resources.logo1;
+            this.pictureBox2.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(163, 134);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 6;
+            this.pictureBox2.TabStop = false;
             // 
             // StudentManagementGrades
             // 

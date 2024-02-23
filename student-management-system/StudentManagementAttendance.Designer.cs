@@ -28,13 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.label3 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
@@ -51,86 +44,19 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label2 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.panel1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.dateTimePicker1.Location = new System.Drawing.Point(367, 329);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 23);
-            this.dateTimePicker1.TabIndex = 1;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Copperplate Gothic Bold", 15F);
-            this.label3.Location = new System.Drawing.Point(377, 301);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(65, 23);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Date";
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(81)))), ((int)(((byte)(15)))));
-            this.button1.Font = new System.Drawing.Font("Copperplate Gothic Bold", 10F);
-            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(163)))), ((int)(((byte)(38)))));
-            this.button1.Location = new System.Drawing.Point(367, 358);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "Back";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(81)))), ((int)(((byte)(15)))));
-            this.button2.Font = new System.Drawing.Font("Copperplate Gothic Bold", 10F);
-            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(163)))), ((int)(((byte)(38)))));
-            this.button2.Location = new System.Drawing.Point(463, 358);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(104, 23);
-            this.button2.TabIndex = 9;
-            this.button2.Text = "Confirm";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // panel2
-            // 
-            this.panel2.Location = new System.Drawing.Point(189, 233);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(154, 148);
-            this.panel2.TabIndex = 10;
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Present",
-            "Late",
-            "Absent"});
-            this.comboBox1.Location = new System.Drawing.Point(367, 274);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(200, 24);
-            this.comboBox1.TabIndex = 11;
-            this.comboBox1.Text = "Present / Late/ Absent";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Copperplate Gothic Bold", 15F);
-            this.label2.Location = new System.Drawing.Point(377, 246);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(146, 23);
-            this.label2.TabIndex = 12;
-            this.label2.Text = "Attendance";
             // 
             // panel1
             // 
@@ -161,6 +87,7 @@
             this.label1.Size = new System.Drawing.Size(398, 29);
             this.label1.TabIndex = 0;
             this.label1.Text = "Student Attendance Data";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // tableLayoutPanel1
             // 
@@ -195,6 +122,7 @@
             this.button3.TabIndex = 1;
             this.button3.Text = "Student grades data";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button1_Click);
             // 
             // button4
             // 
@@ -206,6 +134,7 @@
             this.button4.TabIndex = 2;
             this.button4.Text = "Student attendance data";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button2_Click);
             // 
             // button5
             // 
@@ -217,6 +146,7 @@
             this.button5.TabIndex = 4;
             this.button5.Text = "Student payment information";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button4_Click);
             // 
             // flowLayoutPanel1
             // 
@@ -238,6 +168,7 @@
             this.button9.TabIndex = 7;
             this.button9.Text = "Back to System Menu";
             this.button9.UseVisualStyleBackColor = false;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // button10
             // 
@@ -268,6 +199,7 @@
             this.button6.TabIndex = 3;
             this.button6.Text = "Student monitoring sheet";
             this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button3_Click);
             // 
             // pictureBox2
             // 
@@ -285,10 +217,10 @@
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
             this.Column2});
-            this.dataGridView1.Location = new System.Drawing.Point(601, 214);
+            this.dataGridView1.Location = new System.Drawing.Point(605, 213);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(375, 231);
-            this.dataGridView1.TabIndex = 15;
+            this.dataGridView1.TabIndex = 31;
             // 
             // Column1
             // 
@@ -300,14 +232,85 @@
             this.Column2.HeaderText = "Attendance";
             this.Column2.Name = "Column2";
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Copperplate Gothic Bold", 15F);
+            this.label2.Location = new System.Drawing.Point(381, 245);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(146, 23);
+            this.label2.TabIndex = 30;
+            this.label2.Text = "Attendance";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Present",
+            "Late",
+            "Absent"});
+            this.comboBox1.Location = new System.Drawing.Point(371, 273);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(200, 24);
+            this.comboBox1.TabIndex = 29;
+            this.comboBox1.Text = "Present / Late/ Absent";
+            // 
+            // panel2
+            // 
+            this.panel2.Location = new System.Drawing.Point(193, 232);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(154, 148);
+            this.panel2.TabIndex = 28;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(81)))), ((int)(((byte)(15)))));
+            this.button2.Font = new System.Drawing.Font("Copperplate Gothic Bold", 10F);
+            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(163)))), ((int)(((byte)(38)))));
+            this.button2.Location = new System.Drawing.Point(467, 357);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(104, 23);
+            this.button2.TabIndex = 27;
+            this.button2.Text = "Confirm";
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(81)))), ((int)(((byte)(15)))));
+            this.button1.Font = new System.Drawing.Font("Copperplate Gothic Bold", 10F);
+            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(163)))), ((int)(((byte)(38)))));
+            this.button1.Location = new System.Drawing.Point(371, 357);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 26;
+            this.button1.Text = "Back";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Copperplate Gothic Bold", 15F);
+            this.label3.Location = new System.Drawing.Point(381, 300);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(65, 23);
+            this.label3.TabIndex = 25;
+            this.label3.Text = "Date";
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.dateTimePicker1.Location = new System.Drawing.Point(371, 328);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(200, 23);
+            this.dateTimePicker1.TabIndex = 24;
+            // 
             // StudentManagementAttendance
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1002, 549);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.panel2);
@@ -315,6 +318,8 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "StudentManagementAttendance";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.StudentManagementAttendance_Load);
@@ -330,13 +335,6 @@
         }
 
         #endregion
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label1;
@@ -353,6 +351,13 @@
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
     }
 }
 

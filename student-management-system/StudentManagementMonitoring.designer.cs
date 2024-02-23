@@ -257,6 +257,7 @@
             this.label4.Size = new System.Drawing.Size(404, 29);
             this.label4.TabIndex = 0;
             this.label4.Text = "Student Monitoring Sheet";
+            this.label4.Click += new System.EventHandler(this.label4_Click_1);
             // 
             // tableLayoutPanel1
             // 
@@ -311,6 +312,7 @@
             this.button5.TabIndex = 5;
             this.button5.Text = "Back to System Menu";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button9_Click);
             // 
             // button6
             // 
@@ -341,6 +343,7 @@
             this.button4.TabIndex = 1;
             this.button4.Text = "Student grades data";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button1_Click);
             // 
             // button7
             // 
@@ -352,6 +355,7 @@
             this.button7.TabIndex = 2;
             this.button7.Text = "Student attendance data";
             this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button2_Click);
             // 
             // button8
             // 
@@ -363,6 +367,7 @@
             this.button8.TabIndex = 3;
             this.button8.Text = "Student monitoring sheet";
             this.button8.UseVisualStyleBackColor = false;
+            this.button8.Click += new System.EventHandler(this.button3_Click);
             // 
             // button9
             // 
@@ -374,6 +379,7 @@
             this.button9.TabIndex = 4;
             this.button9.Text = "Student payment information";
             this.button9.UseVisualStyleBackColor = false;
+            this.button9.Click += new System.EventHandler(this.button4_Click);
             // 
             // textBox4
             // 
@@ -448,7 +454,6 @@
             this.button10.TabIndex = 27;
             this.button10.Text = "Change name / grade and section";
             this.button10.UseVisualStyleBackColor = false;
-            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // StudentManagementMonitoring
             // 
