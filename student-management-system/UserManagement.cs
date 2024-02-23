@@ -1,4 +1,5 @@
-﻿using System;
+﻿using STUDENT_MANAGEMENT_SYSTEM;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -25,6 +26,13 @@ namespace student_management_system
         private void UserManagement_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            SystemMenu systemMenu = new SystemMenu();
+            systemMenu.Show();
         }
     }
 }
