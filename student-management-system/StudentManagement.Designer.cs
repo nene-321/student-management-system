@@ -87,11 +87,6 @@
             this.label1.Location = new System.Drawing.Point(10, 45);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-<<<<<<< HEAD
-            this.label1.Size = new System.Drawing.Size(329, 29);
-=======
-            this.label1.Size = new System.Drawing.Size(478, 43);
->>>>>>> 6d103bfd03975c38385097184e14ac551777b352
             this.label1.TabIndex = 0;
             this.label1.Text = "Student Management";
             // 
@@ -211,14 +206,8 @@
             // 
             // pictureBox2
             // 
-<<<<<<< HEAD
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Image = global::student_management_system.Properties.Resources.logo11;
             this.pictureBox2.Location = new System.Drawing.Point(3, 3);
-=======
-            this.pictureBox2.Image = global::student_management_system.Properties.Resources.logo1;
-            this.pictureBox2.Location = new System.Drawing.Point(4, 5);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
->>>>>>> 6d103bfd03975c38385097184e14ac551777b352
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(244, 205);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
