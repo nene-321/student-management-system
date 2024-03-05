@@ -56,7 +56,7 @@ namespace STUDENT_MANAGEMENT_SYSTEM
         private void button4_Click(object sender, EventArgs e)
         {
             this.Hide();
-            AddStudent addStudent = new AddStudent();
+            UserManagementAdmin addStudent = new UserManagementAdmin();
             addStudent.Show();
 
         }

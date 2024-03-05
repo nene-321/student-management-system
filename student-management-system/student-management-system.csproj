@@ -89,11 +89,17 @@
     <Compile Include="StudentManagementGrades.Designer.cs">
       <DependentUpon>StudentManagementGrades.cs</DependentUpon>
     </Compile>
-    <Compile Include="UserManagement.cs">
+    <Compile Include="UserManagementTeacher.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UserManagement.Designer.cs">
-      <DependentUpon>UserManagement.cs</DependentUpon>
+    <Compile Include="UserManagementTeacher.Designer.cs">
+      <DependentUpon>UserManagementTeacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserManagementAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserManagementAdmin.Designer.cs">
+      <DependentUpon>UserManagementAdmin.cs</DependentUpon>
     </Compile>
     <Compile Include="SystemMenu.cs">
       <SubType>Form</SubType>
@@ -123,8 +129,11 @@
     <EmbeddedResource Include="StudentManagementGrades.resx">
       <DependentUpon>StudentManagementGrades.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UserManagement.resx">
-      <DependentUpon>UserManagement.cs</DependentUpon>
+    <EmbeddedResource Include="UserManagementTeacher.resx">
+      <DependentUpon>UserManagementTeacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserManagementAdmin.resx">
+      <DependentUpon>UserManagementAdmin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SystemMenu.resx">
       <DependentUpon>SystemMenu.cs</DependentUpon>
