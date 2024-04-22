@@ -17,7 +17,17 @@ namespace student_management_system
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new LoginMenu());
+            
+            LoginMenu login = new LoginMenu();
+
+            if (login.ShowDialog() == DialogResult.OK)
+            {
+                Application.Run(new SystemMenu());
+            }
+            else
+            {
+                Application.Exit();
+            }
         }
     }
 }

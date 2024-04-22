@@ -63,7 +63,9 @@ namespace STUDENT_MANAGEMENT_SYSTEM
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            StudentManagement studentManagement = new StudentManagement();
+            studentManagement.Show();
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -83,6 +85,11 @@ namespace STUDENT_MANAGEMENT_SYSTEM
             this.Hide();
             AddStudent addStudent = new AddStudent();
             addStudent.Show();
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using STUDENT_MANAGEMENT_SYSTEM;
+﻿using MySql.Data.MySqlClient;
+using STUDENT_MANAGEMENT_SYSTEM;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -38,11 +39,31 @@ namespace student_management_system
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnEnter_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            SystemMenu systemMenu = new SystemMenu();
-            systemMenu.Show();
+            database db = new database();
+
+            MySqlDataAdapter adapter = new MySqlDataAdapter();
+            DataTable table = new DataTable();
+            MySqlCommand command = new MySqlCommand("SELECT * FROM `login` WHERE `username` = @user AND `password` = @pass", db.getConnection);
+
+            command.Parameters.Add("@user", MySqlDbType.VarChar).Value = textBoxUser.Text;
+            command.Parameters.Add("@pass", MySqlDbType.VarChar).Value = textBoxPass.Text;
+
+            adapter.SelectCommand = command;
+
+            adapter.Fill(table);
+
+            if (table.Rows.Count > 0)
+            {
+                this.DialogResult = DialogResult.OK;
+                MessageBox.Show("Welcome");
+            }
+            else
+            {
+                MessageBox.Show("Please try again", "Login Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
         }
 
         private void textBox1_KeyUp(object sender, KeyEventArgs e)
@@ -52,11 +73,12 @@ namespace student_management_system
 
         private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
         {
-            char ch = e.KeyChar;
-            if (!char.IsLetter(ch))
-            {
-                e.Handled = true;
-            }
+
+        }
+
+        private void textBoxPass_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
