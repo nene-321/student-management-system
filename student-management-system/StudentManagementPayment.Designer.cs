@@ -29,6 +29,10 @@
         private void InitializeComponent()
         {
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Date = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -59,11 +63,9 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Date = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label2 = new System.Windows.Forms.Label();
+            this.AmountPayable = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
@@ -79,13 +81,45 @@
             this.Column2,
             this.Column3,
             this.Column4,
-            this.Date});
-            this.dataGridView1.Location = new System.Drawing.Point(366, 132);
+            this.Date,
+            this.AmountPayable,
+            this.Column1});
+            this.dataGridView1.Location = new System.Drawing.Point(351, 132);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersWidth = 62;
-            this.dataGridView1.Size = new System.Drawing.Size(614, 317);
+            this.dataGridView1.Size = new System.Drawing.Size(629, 317);
             this.dataGridView1.TabIndex = 1;
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "Name of Bill";
+            this.Column2.MinimumWidth = 8;
+            this.Column2.Name = "Column2";
+            this.Column2.ReadOnly = true;
+            this.Column2.Width = 150;
+            // 
+            // Column3
+            // 
+            this.Column3.HeaderText = "Amount Unpaid";
+            this.Column3.MinimumWidth = 8;
+            this.Column3.Name = "Column3";
+            this.Column3.ReadOnly = true;
+            this.Column3.Width = 150;
+            // 
+            // Column4
+            // 
+            this.Column4.HeaderText = "Status";
+            this.Column4.MinimumWidth = 8;
+            this.Column4.Name = "Column4";
+            this.Column4.ReadOnly = true;
+            this.Column4.Width = 150;
+            // 
+            // Date
+            // 
+            this.Date.HeaderText = "Date of Payment";
+            this.Date.Name = "Date";
+            this.Date.ReadOnly = true;
             // 
             // button1
             // 
@@ -166,7 +200,7 @@
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(163)))), ((int)(((byte)(38)))));
             this.panel3.Location = new System.Drawing.Point(0, 71);
-            this.panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(838, 17);
             this.panel3.TabIndex = 2;
@@ -254,7 +288,7 @@
             // panel2
             // 
             this.panel2.Location = new System.Drawing.Point(2, 43);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(133, 65);
             this.panel2.TabIndex = 7;
@@ -430,36 +464,6 @@
             this.panel6.Size = new System.Drawing.Size(114, 112);
             this.panel6.TabIndex = 41;
             // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "Name of Bill";
-            this.Column2.MinimumWidth = 8;
-            this.Column2.Name = "Column2";
-            this.Column2.ReadOnly = true;
-            this.Column2.Width = 150;
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "Amount Unpaid";
-            this.Column3.MinimumWidth = 8;
-            this.Column3.Name = "Column3";
-            this.Column3.ReadOnly = true;
-            this.Column3.Width = 150;
-            // 
-            // Column4
-            // 
-            this.Column4.HeaderText = "Status";
-            this.Column4.MinimumWidth = 8;
-            this.Column4.Name = "Column4";
-            this.Column4.ReadOnly = true;
-            this.Column4.Width = 150;
-            // 
-            // Date
-            // 
-            this.Date.HeaderText = "Date of Payment";
-            this.Date.Name = "Date";
-            this.Date.ReadOnly = true;
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -469,6 +473,18 @@
             this.label2.Size = new System.Drawing.Size(179, 20);
             this.label2.TabIndex = 48;
             this.label2.Text = "Date of Payment";
+            // 
+            // AmountPayable
+            // 
+            this.AmountPayable.HeaderText = "Amount Payable";
+            this.AmountPayable.Name = "AmountPayable";
+            this.AmountPayable.ReadOnly = true;
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "Column1";
+            this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
             // 
             // StudentManagementPayment
             // 
@@ -546,5 +562,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Date;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn AmountPayable;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
     }
 }
