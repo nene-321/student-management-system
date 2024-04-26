@@ -77,5 +77,10 @@ namespace student_management_system
             SystemMenu systemMenu = new SystemMenu();
             systemMenu.Show();
         }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

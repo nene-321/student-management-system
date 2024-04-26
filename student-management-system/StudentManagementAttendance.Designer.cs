@@ -67,18 +67,18 @@
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(81)))), ((int)(((byte)(15)))));
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(250, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel1.Location = new System.Drawing.Point(167, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1257, 135);
+            this.panel1.Size = new System.Drawing.Size(838, 88);
             this.panel1.TabIndex = 14;
             // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(163)))), ((int)(((byte)(38)))));
-            this.panel3.Location = new System.Drawing.Point(-252, 108);
+            this.panel3.Location = new System.Drawing.Point(-168, 70);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1509, 28);
+            this.panel3.Size = new System.Drawing.Size(1006, 18);
             this.panel3.TabIndex = 19;
             // 
             // label1
@@ -86,10 +86,9 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Copperplate Gothic Bold", 19F);
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(163)))), ((int)(((byte)(38)))));
-            this.label1.Location = new System.Drawing.Point(10, 45);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(7, 29);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(579, 43);
+            this.label1.Size = new System.Drawing.Size(398, 29);
             this.label1.TabIndex = 0;
             this.label1.Text = "Student Attendance Data";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -105,27 +104,26 @@
             this.tableLayoutPanel1.Controls.Add(this.flowLayoutPanel1, 0, 5);
             this.tableLayoutPanel1.Controls.Add(this.button6, 0, 3);
             this.tableLayoutPanel1.Controls.Add(this.pictureBox2, 0, 0);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(-2, 0);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(-1, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 6;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 215F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 140F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 24.99848F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25.00051F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25.00051F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25.00051F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 86F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(254, 851);
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 56F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(169, 553);
             this.tableLayoutPanel1.TabIndex = 13;
             // 
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(163)))), ((int)(((byte)(38)))));
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button3.Font = new System.Drawing.Font("Copperplate Gothic Bold", 15F);
-            this.button3.Location = new System.Drawing.Point(4, 220);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button3.Location = new System.Drawing.Point(3, 143);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(244, 127);
+            this.button3.Size = new System.Drawing.Size(163, 83);
             this.button3.TabIndex = 1;
             this.button3.Text = "Student grades data";
             this.button3.UseVisualStyleBackColor = false;
@@ -134,11 +132,11 @@
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(163)))), ((int)(((byte)(38)))));
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button4.Font = new System.Drawing.Font("Copperplate Gothic Bold", 15F);
-            this.button4.Location = new System.Drawing.Point(4, 357);
-            this.button4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button4.Location = new System.Drawing.Point(3, 232);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(244, 127);
+            this.button4.Size = new System.Drawing.Size(163, 83);
             this.button4.TabIndex = 2;
             this.button4.Text = "Student attendance data";
             this.button4.UseVisualStyleBackColor = false;
@@ -147,11 +145,11 @@
             // button5
             // 
             this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(163)))), ((int)(((byte)(38)))));
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button5.Font = new System.Drawing.Font("Copperplate Gothic Bold", 15F);
-            this.button5.Location = new System.Drawing.Point(4, 631);
-            this.button5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button5.Location = new System.Drawing.Point(3, 410);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(244, 127);
+            this.button5.Size = new System.Drawing.Size(163, 83);
             this.button5.TabIndex = 4;
             this.button5.Text = "Student payment information";
             this.button5.UseVisualStyleBackColor = false;
@@ -162,20 +160,19 @@
             this.flowLayoutPanel1.Controls.Add(this.button9);
             this.flowLayoutPanel1.Controls.Add(this.button10);
             this.flowLayoutPanel1.Controls.Add(this.panel4);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(4, 768);
-            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(3, 499);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(244, 58);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(163, 38);
             this.flowLayoutPanel1.TabIndex = 5;
             // 
             // button9
             // 
             this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(163)))), ((int)(((byte)(38)))));
+            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button9.Font = new System.Drawing.Font("Copperplate Gothic Bold", 8.25F);
-            this.button9.Location = new System.Drawing.Point(4, 5);
-            this.button9.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button9.Location = new System.Drawing.Point(3, 3);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(129, 54);
+            this.button9.Size = new System.Drawing.Size(86, 35);
             this.button9.TabIndex = 7;
             this.button9.Text = "Back to System Menu";
             this.button9.UseVisualStyleBackColor = false;
@@ -184,30 +181,31 @@
             // button10
             // 
             this.button10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(163)))), ((int)(((byte)(38)))));
+            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button10.Font = new System.Drawing.Font("Copperplate Gothic Bold", 6F);
-            this.button10.Location = new System.Drawing.Point(141, 5);
-            this.button10.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button10.Location = new System.Drawing.Point(95, 3);
             this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(87, 54);
+            this.button10.Size = new System.Drawing.Size(58, 35);
             this.button10.TabIndex = 8;
-            this.button10.Text = "Save changes";
+            this.button10.Text = "Recover";
             this.button10.UseVisualStyleBackColor = false;
             // 
             // panel4
             // 
-            this.panel4.Location = new System.Drawing.Point(3, 67);
+            this.panel4.Location = new System.Drawing.Point(2, 43);
+            this.panel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(200, 100);
+            this.panel4.Size = new System.Drawing.Size(133, 65);
             this.panel4.TabIndex = 9;
             // 
             // button6
             // 
             this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(163)))), ((int)(((byte)(38)))));
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button6.Font = new System.Drawing.Font("Copperplate Gothic Bold", 15F);
-            this.button6.Location = new System.Drawing.Point(4, 494);
-            this.button6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button6.Location = new System.Drawing.Point(3, 321);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(244, 127);
+            this.button6.Size = new System.Drawing.Size(163, 83);
             this.button6.TabIndex = 3;
             this.button6.Text = "Student monitoring sheet";
             this.button6.UseVisualStyleBackColor = false;
@@ -216,10 +214,9 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::student_management_system.Properties.Resources.logo1;
-            this.pictureBox2.Location = new System.Drawing.Point(4, 5);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox2.Location = new System.Drawing.Point(3, 3);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(244, 205);
+            this.pictureBox2.Size = new System.Drawing.Size(163, 133);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 6;
             this.pictureBox2.TabStop = false;
@@ -230,11 +227,10 @@
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
             this.Column2});
-            this.dataGridView1.Location = new System.Drawing.Point(655, 311);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.dataGridView1.Location = new System.Drawing.Point(437, 202);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 62;
-            this.dataGridView1.Size = new System.Drawing.Size(799, 400);
+            this.dataGridView1.Size = new System.Drawing.Size(533, 260);
             this.dataGridView1.TabIndex = 31;
             // 
             // Column1
@@ -255,10 +251,9 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Copperplate Gothic Bold", 15F);
-            this.label2.Location = new System.Drawing.Point(287, 463);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(191, 301);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(218, 34);
+            this.label2.Size = new System.Drawing.Size(146, 23);
             this.label2.TabIndex = 30;
             this.label2.Text = "Attendance";
             // 
@@ -270,22 +265,21 @@
             "Present",
             "Late",
             "Absent"});
-            this.comboBox1.Location = new System.Drawing.Point(293, 502);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.comboBox1.Location = new System.Drawing.Point(195, 326);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(298, 33);
+            this.comboBox1.Size = new System.Drawing.Size(200, 24);
             this.comboBox1.TabIndex = 29;
             this.comboBox1.Text = "Present / Late/ Absent";
             // 
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(81)))), ((int)(((byte)(15)))));
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button2.Font = new System.Drawing.Font("Copperplate Gothic Bold", 10F);
             this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(163)))), ((int)(((byte)(38)))));
-            this.button2.Location = new System.Drawing.Point(437, 631);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button2.Location = new System.Drawing.Point(195, 420);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(156, 35);
+            this.button2.Size = new System.Drawing.Size(90, 32);
             this.button2.TabIndex = 27;
             this.button2.Text = "Confirm";
             this.button2.UseVisualStyleBackColor = false;
@@ -293,12 +287,12 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(81)))), ((int)(((byte)(15)))));
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button1.Font = new System.Drawing.Font("Copperplate Gothic Bold", 10F);
             this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(163)))), ((int)(((byte)(38)))));
-            this.button1.Location = new System.Drawing.Point(293, 631);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button1.Location = new System.Drawing.Point(291, 420);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(112, 35);
+            this.button1.Size = new System.Drawing.Size(90, 32);
             this.button1.TabIndex = 26;
             this.button1.Text = "Update";
             this.button1.UseVisualStyleBackColor = false;
@@ -307,39 +301,35 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Copperplate Gothic Bold", 15F);
-            this.label3.Location = new System.Drawing.Point(287, 548);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(191, 356);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(97, 34);
+            this.label3.Size = new System.Drawing.Size(65, 23);
             this.label3.TabIndex = 25;
             this.label3.Text = "Date";
             // 
             // dateTimePicker1
             // 
             this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.dateTimePicker1.Location = new System.Drawing.Point(293, 587);
-            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.dateTimePicker1.Location = new System.Drawing.Point(195, 382);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(298, 30);
+            this.dateTimePicker1.Size = new System.Drawing.Size(200, 23);
             this.dateTimePicker1.TabIndex = 24;
             // 
             // textBox3
             // 
             this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.textBox3.Location = new System.Drawing.Point(293, 328);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textBox3.Location = new System.Drawing.Point(195, 213);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(176, 32);
+            this.textBox3.Size = new System.Drawing.Size(119, 24);
             this.textBox3.TabIndex = 32;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Copperplate Gothic Bold", 15F);
-            this.label4.Location = new System.Drawing.Point(287, 289);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(191, 188);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(197, 34);
+            this.label4.Size = new System.Drawing.Size(131, 23);
             this.label4.TabIndex = 33;
             this.label4.Text = "Student ID";
             // 
@@ -347,40 +337,38 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Copperplate Gothic Bold", 15F);
-            this.label5.Location = new System.Drawing.Point(287, 377);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(191, 245);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(253, 34);
+            this.label5.Size = new System.Drawing.Size(167, 23);
             this.label5.TabIndex = 35;
             this.label5.Text = "Student Name";
             // 
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.textBox1.Location = new System.Drawing.Point(293, 416);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textBox1.Location = new System.Drawing.Point(195, 270);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(176, 32);
+            this.textBox1.Size = new System.Drawing.Size(119, 24);
             this.textBox1.TabIndex = 34;
             // 
             // button7
             // 
-            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(81)))), ((int)(((byte)(15)))));
+            this.button7.BackColor = System.Drawing.Color.Brown;
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button7.Font = new System.Drawing.Font("Copperplate Gothic Bold", 10F);
             this.button7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(163)))), ((int)(((byte)(38)))));
-            this.button7.Location = new System.Drawing.Point(293, 676);
-            this.button7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button7.Location = new System.Drawing.Point(195, 458);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(156, 35);
+            this.button7.Size = new System.Drawing.Size(90, 32);
             this.button7.TabIndex = 36;
             this.button7.Text = "Remove";
             this.button7.UseVisualStyleBackColor = false;
             // 
             // StudentManagementAttendance
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1503, 845);
+            this.ClientSize = new System.Drawing.Size(1002, 549);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.textBox1);
@@ -395,7 +383,6 @@
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.tableLayoutPanel1);
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "StudentManagementAttendance";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.StudentManagementAttendance_Load);

@@ -34,5 +34,10 @@ namespace student_management_system
             SystemMenu systemMenu = new SystemMenu();
             systemMenu.Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

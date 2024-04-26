@@ -101,14 +101,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="database.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="AddStudent.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="AddStudent.Designer.cs">
       <DependentUpon>AddStudent.cs</DependentUpon>
     </Compile>
-    <Compile Include="database.cs" />
-    <Compile Include="Program.cs" />
     <Compile Include="StudentManagementMonitoring.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -208,9 +208,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="images\logo.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="images\logo1.png" />

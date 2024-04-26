@@ -169,6 +169,7 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(81)))), ((int)(((byte)(15)))));
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button1.Font = new System.Drawing.Font("Copperplate Gothic Bold", 10F);
             this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(163)))), ((int)(((byte)(38)))));
             this.button1.Location = new System.Drawing.Point(597, 303);
@@ -177,10 +178,12 @@
             this.button1.TabIndex = 16;
             this.button1.Text = "Confirm add student";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(81)))), ((int)(((byte)(15)))));
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button2.Font = new System.Drawing.Font("Copperplate Gothic Bold", 9F);
             this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(163)))), ((int)(((byte)(38)))));
             this.button2.Location = new System.Drawing.Point(448, 161);
@@ -193,11 +196,12 @@
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(81)))), ((int)(((byte)(15)))));
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button3.Font = new System.Drawing.Font("Copperplate Gothic Bold", 9F);
             this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(163)))), ((int)(((byte)(38)))));
             this.button3.Location = new System.Drawing.Point(448, 346);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(118, 35);
+            this.button3.Size = new System.Drawing.Size(140, 35);
             this.button3.TabIndex = 19;
             this.button3.Text = "Save QR Code";
             this.button3.UseVisualStyleBackColor = false;
@@ -238,6 +242,7 @@
             // 
             this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(158)))), ((int)(((byte)(2)))), ((int)(((byte)(3)))));
             this.button4.Cursor = System.Windows.Forms.Cursors.Default;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button4.Font = new System.Drawing.Font("Copperplate Gothic Bold", 12F, System.Drawing.FontStyle.Bold);
             this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(163)))), ((int)(((byte)(38)))));
             this.button4.Location = new System.Drawing.Point(12, 477);
@@ -246,7 +251,6 @@
             this.button4.TabIndex = 23;
             this.button4.Text = "Back";
             this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // pictureBox1
             // 
@@ -279,7 +283,6 @@
             this.Controls.Add(this.panel1);
             this.Name = "AddStudent";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.AddStudent_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
